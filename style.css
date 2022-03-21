@@ -1,0 +1,304 @@
+body {
+  background-image:url(https://cdn.discordapp.com/attachments/930608718305984566/940435688602607636/fresh-rainfall-on-green-leaves.jpg);
+  color: rgb(255, 255, 255);
+  font-family: "Cairo", sans-serif;
+}
+
+
+#submit-button{
+  background:#1db954;
+  margin-top: 20px;
+  width:60%;
+}
+
+#submit-button:hover{
+  color:black;
+  box-shadow:2px 2px 1px 1px;
+}
+
+.login {
+  color: white;
+  border:none;
+  width: 30%;
+  font-family: inherit;
+  font-size: 20pt;
+  background: inherit;
+  align-content: center;
+  border-radius:13px;
+}
+
+.search{
+  width:100%;
+  background:white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 3px black;
+}
+
+ .col .search-input{
+  border:none;
+  width:100%;
+  height:100%;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.search .icon{
+  position:relative;
+  float:right;
+  font-size: 25px;
+}
+
+.login:hover {
+  background: #1db954;
+  transition: all 0.4s ease;
+}
+
+
+.login-dropdown.active >  .login-menu {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.login-form {
+  height:45px;
+  border:none;
+  position:relative;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 16pt;
+  margin: 5px 5px 5px 5px;
+  padding-left:10px;
+  margin-bottom:10px;
+}
+
+.add-contact {
+  display: none;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: black;
+}
+
+
+.search-bar .icon {
+  position:relative;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 25px;
+  color: #1db954;
+  transition: all 0.4s ease;
+}
+
+
+.search-result-list{
+  list-style:none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.delete-button{
+  float:right;
+  height:100%;
+  background:inherit;
+  border:none;
+  color:inherit;
+}
+
+.delete-button:hover{
+  background: #1db954;
+  transition: all 0.4s ease;
+}
+
+.edit-button{
+  float:right;
+  height:100%;
+  background:inherit;
+  border:none;
+  color:inherit;
+}
+
+.edit-button:hover{
+  background: #1db954;
+  transition: all 0.4s ease;
+}
+
+.view-button{
+  float:right;
+  height:100%;
+  background:inherit;
+  border:none;
+  color:inherit;
+}
+
+.view-button:hover{
+  background: #1db954;
+  transition: all 0.4s ease;
+}
+
+
+
+
+.search-results-container{
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.contact-info{
+  width:100%;
+  max-width:700px;
+  position: relative;
+  float:right;
+  text-align:center;
+}
+
+.contact-list{
+  width:100%;
+  max-width:700px;
+  display:flex;
+}
+
+
+.blur-test.active-0{
+  filter:blur(15px);
+  opacity:0;
+  transition: opacity .5s;
+  pointer-events: none;
+}
+
+.blur-test.active-1{
+  opacity:0.4;
+  filter:blur(11px);
+  transition:opacity .5s;
+}
+
+.blur-test.active-2{
+  opacity:0.6;
+  filter:blur(7px);
+  transition:opacity 1s;
+}
+
+.blur-test.active-3{
+  opacity:0.8;
+  filter:blur(3px);
+  transition:opacity 1s;
+}
+
+.blur-test.active-4{
+  opacity:1;
+  filter:blur(0);
+  transition:opacity 1s;
+  pointer-events:auto;
+}
+
+.login-overlay{
+  position:absolute;
+}
+
+.info-card{
+  height:40%;
+}
+
+.hidden{
+  display:none;
+}
+
+.login-overlay.inactive-3{
+  opacity:0;
+  filter:blur(0);
+  transition:opacity .5s;
+  pointer-events:none;
+}
+
+.login-overlay.inactive-2{
+  opacity:0.3;
+  filter:blur(7px);
+  transition:opacity .5s;
+}
+
+.login-overlay.inactive-1{
+  opacity:0.6;
+  filter:blur(3px);
+  transition:opacity .5s;
+}
+
+.login-overlay.inactive-0{
+  opacity:1;
+  filter:blur(0);
+  transition:opacity .5s;
+  pointer-events:auto;
+}
+
+.contact-overlay.inactive-3{
+  opacity:0;
+  filter:blur(0);
+  transition:opacity .5s;
+  pointer-events:none;
+}
+
+.contact-overlay.inactive-2{
+  opacity:0.3;
+  filter:blur(7px);
+  transition:opacity .5s;
+}
+
+.contact-overlay.inactive-1{
+  opacity:0.6;
+  filter:blur(3px);
+  transition:opacity .5s;
+}
+
+.contact-overlay.inactive-0{
+  opacity:1;
+  filter:blur(0);
+  transition:opacity .5s;
+  pointer-events:auto;
+}
+
+#add-contact{
+  border:none;
+  background:inherit;
+}
+body {
+    font-family: sans-serif;
+    background-color: #81d4fa;
+    font-weight: bold;
+}
+
+.text-box {
+    margin-left: 44vw;
+   margin-top: 42vh;
+}
+
+
+.login-button:hover{
+  color: #1F1F1F;
+  box-shadow: 2px 2px 2px 1px;
+  background:#fff;
+  transition: ease 0.5s;
+}
+
+
+.contact-overlay{
+  position:absolute;
+}
+
+.view-form{
+  height:45px;
+  border:none;
+  position:relative;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 16pt;
+  margin: 5px 5px 5px 5px;
+  padding-left:10px;
+  margin-bottom:10px;
+  
+}
